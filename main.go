@@ -18,7 +18,7 @@ func main() {
 	case "help":
 		fmt.Println("soon...")
 	case "init":
-		fmt.Println("init")
+		Init()
 	default:
 		fmt.Printf("mygit: '%s' is not a git command. See 'mygit help'.", command)
 	}
