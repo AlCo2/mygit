@@ -5,6 +5,8 @@ import (
 	"os"
 )
 
+const MAIN_PATH = ".mygit"
+
 func main() {
 
 	if len(os.Args) <= 1 {
