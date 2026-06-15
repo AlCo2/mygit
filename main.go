@@ -19,6 +19,8 @@ func main() {
 	switch command {
 	case "help":
 		fmt.Println("soon...")
+	case "status":
+		Status()
 	case "init":
 		Init()
 	default:
