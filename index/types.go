@@ -11,5 +11,5 @@ type Entry struct {
 
 	SHA1 [20]byte
 
-	Path string
+	Path [256]byte
 }
