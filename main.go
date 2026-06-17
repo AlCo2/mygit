@@ -21,6 +21,8 @@ func main() {
 		fmt.Println("soon...")
 	case "status":
 		Status()
+	case "add":
+		Add()
 	case "init":
 		Init()
 	default:
